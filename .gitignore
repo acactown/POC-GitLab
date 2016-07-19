@@ -1,0 +1,41 @@
+# Vim
+# ---
+*.sw[op]
+
+# Emacs
+# -----
+*~
+
+# Textmate
+# --------
+.textmate
+
+# Sublime Text
+# ------------
+*.sublime-*
+
+# jEnv
+# ----
+.java-version
+
+# OS X
+# ----
+.DS_Store
+
+# HPROF
+# -----
+*.hprof
+
+# Logs
+# ----
+/*.log
+
+# POC-GitLab Volumes
+/gitlab
+/jenkins
+/nginx
+/postgresql
+/postgresql-sonar
+/redis
+/sonarqube
+
