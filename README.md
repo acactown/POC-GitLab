@@ -82,15 +82,18 @@ docker-compose up
 **3. Probar que todo subió con éxito:**
 
    * **Jenkins:** http://jenkins/
-      	* user: aamadoc
+      	
+        * user: aamadoc
       	* pwd: pslabc123 
-      	
+ 	
    * **Gitlab:** http://gitlab/
-   	  	* user: aamadoc
+   	  	
+        * user: aamadoc
       	* pwd: pslabc123
-      	
+
    * **Sonarqube:** http://sonar/
-   		* user: admin
+
+        * user: admin
       	* pwd: pslabc123
 
 
@@ -159,11 +162,11 @@ git push origin add-fortune-picker
 ![Crear proyecto](https://raw.githubusercontent.com/acactown/POC-GitLab/master/screenshots/created-mr.png)
 ---
 
-**2. Ejecución automatica del Job de Jenkins:**
+**4. Ejecución automatica del Job de Jenkins:**
 ![Crear proyecto](https://raw.githubusercontent.com/acactown/POC-GitLab/master/screenshots/gradle-console-log.png)
 ---
 
-**3. Comentarios generados por Sonarqube Gitlab publisher:**
+**5. Comentarios generados por Sonarqube Gitlab publisher:**
 
 Está utilizando mi token personal, por eso los comentarios quedan a mi nombre :sweat_smile:
 ![Crear proyecto](https://raw.githubusercontent.com/acactown/POC-GitLab/master/screenshots/mr-comment.png)
