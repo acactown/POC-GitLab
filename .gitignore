@@ -38,4 +38,4 @@
 /postgresql-sonar
 /redis
 /sonarqube
-
+volumes.zip
